@@ -1,2 +1,2 @@
-# dtalgo
-Implementation of data structure &amp; algorithms 
+# DSA
+## data structure &amp; algorithms 
