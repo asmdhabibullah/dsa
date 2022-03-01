@@ -1,0 +1,20 @@
+{
+  "name": "dsa",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "repository": "https://github.com/asmdhabibullah/dsa.git",
+  "author": "asmdhabibullah <asmdhabibullah@yahoo.com>",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "tsc",
+    "test": "npm run prepare && jest ./dist/*/** --w",
+    "prestart": "node ./dist/index.js",
+    "start": "npm run prepare && nodemon run prestart"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.6.2"
+  }
+}
